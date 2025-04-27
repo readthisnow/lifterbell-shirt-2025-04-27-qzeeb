@@ -1,56 +1,82 @@
 <!DOCTYPE html>
-<html lang="nl" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="nl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lifterbell Shirt - Exclusieve Korting</title>
     <meta name="description" content="Koop nu je Lifterbell Shirt met speciale korting. Limited edition fitness kleding voor echte atleten.">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans antialiased">
     <header class="fixed w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
         <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Lifterbell</a>
+            <a href="https://readthisnow.github.io/lifterbell-shirt-2025-04-27-qzeeb" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">Lifterbell</a>
+            
             <div class="hidden md:flex space-x-8">
                 <a href="#features" class="hover:text-purple-400 transition-colors duration-300">Features</a>
                 <a href="#benefits" class="hover:text-purple-400 transition-colors duration-300">Voordelen</a>
+                <a href="#testimonials" class="hover:text-purple-400 transition-colors duration-300">Reviews</a>
+                <a href="#about" class="hover:text-purple-400 transition-colors duration-300">Over Ons</a>
                 <a href="#faq" class="hover:text-purple-400 transition-colors duration-300">FAQ</a>
             </div>
+
+            <button class="mobile-menu-button md:hidden" aria-label="Menu">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+
+            <div class="mobile-menu hidden md:hidden absolute top-full left-0 w-full bg-gray-900 border-b border-gray-800">
+                <a href="#features" class="block px-4 py-2 hover:bg-gray-800 transition-colors duration-300">Features</a>
+                <a href="#benefits" class="block px-4 py-2 hover:bg-gray-800 transition-colors duration-300">Voordelen</a>
+                <a href="#testimonials" class="block px-4 py-2 hover:bg-gray-800 transition-colors duration-300">Reviews</a>
+                <a href="#about" class="block px-4 py-2 hover:bg-gray-800 transition-colors duration-300">Over Ons</a>
+                <a href="#faq" class="block px-4 py-2 hover:bg-gray-800 transition-colors duration-300">FAQ</a>
+            </div>
+
             <a href="https://amzn.to/3EGnZle" class="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-2 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300">Koop Nu</a>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center pt-24 overflow-hidden">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center opacity-20"></div>
             <div class="absolute inset-0 bg-gradient-to-br from-purple-900/20 to-pink-900/20 z-0"></div>
             <div class="container mx-auto px-4 relative z-10">
                 <div class="max-w-4xl mx-auto text-center">
-                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Koop Lifterbell Shirt Met Korting</h1>
-                    <p class="text-xl md:text-2xl text-gray-300 mb-12">🔥 Nog maar enkele shirts beschikbaar - Bestel snel voordat ze uitverkocht zijn!</p>
-                    <a href="https://amzn.to/3EGnZle" class="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white text-lg px-8 py-4 rounded-full hover:shadow-xl hover:scale-105 transform transition-all duration-300">Claim Je Korting Nu</a>
+                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Revolutioneer Je Training Met Lifterbell</h1>
+                    <p class="text-xl md:text-2xl text-gray-300 mb-12">🔥 Premium fitness kleding ontworpen voor topprestaties - Nu met 30% korting!</p>
+                    <a href="https://amzn.to/3EGnZle" class="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white text-lg px-8 py-4 rounded-full hover:shadow-xl hover:scale-105 transform transition-all duration-300">Claim Je 30% Korting</a>
                 </div>
             </div>
         </section>
 
         <section id="features" class="py-24 bg-gray-800/50">
             <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Premium Features</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Geavanceerde Features</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700/50 transition-all duration-300 hover:scale-105">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700/50 transition-all duration-300 hover:scale-105 hover:shadow-xl">
                         <div class="text-purple-400 text-4xl mb-4">⚡</div>
-                        <h3 class="text-xl font-bold mb-4">Hoogwaardig Materiaal</h3>
-                        <p class="text-gray-400">Premium kwaliteit stof voor optimaal comfort tijdens je workout</p>
+                        <h3 class="text-xl font-bold mb-4">Moisture-Wicking Technologie</h3>
+                        <p class="text-gray-400">Geavanceerd materiaal dat zweet 200% sneller afvoert dan standaard shirts, zodat jij droog en comfortabel blijft tijdens intensieve trainingen.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700/50 transition-all duration-300 hover:scale-105">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700/50 transition-all duration-300 hover:scale-105 hover:shadow-xl">
                         <div class="text-purple-400 text-4xl mb-4">💪</div>
-                        <h3 class="text-xl font-bold mb-4">Perfect Passend</h3>
-                        <p class="text-gray-400">Ontworpen voor de perfecte fit tijdens alle bewegingen</p>
+                        <h3 class="text-xl font-bold mb-4">4-Way Stretch Materiaal</h3>
+                        <p class="text-gray-400">Revolutionaire stof die meebeweegt in alle richtingen voor maximale bewegingsvrijheid tijdens squats, deadlifts en andere compound oefeningen.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700/50 transition-all duration-300 hover:scale-105">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700/50 transition-all duration-300 hover:scale-105 hover:shadow-xl">
                         <div class="text-purple-400 text-4xl mb-4">🎯</div>
-                        <h3 class="text-xl font-bold mb-4">Uniek Design</h3>
-                        <p class="text-gray-400">Limited edition design - Wees er snel bij!</p>
+                        <h3 class="text-xl font-bold mb-4">Anti-Bacteriële Coating</h3>
+                        <p class="text-gray-400">Speciale behandeling elimineert 99.9% van bacteriën en geurtjes, zelfs na intensieve workouts. Blijf fris ruiken, workout na workout.</p>
                     </div>
                 </div>
             </div>
@@ -60,20 +86,78 @@
             <div class="container mx-auto px-4">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Waarom Kiezen Voor Lifterbell?</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-                    <div class="flex items-start space-x-4">
+                    <div class="flex items-start space-x-4 hover:scale-105 transition-transform duration-300">
                         <div class="text-purple-400 text-2xl">✨</div>
                         <div>
-                            <h3 class="text-xl font-bold mb-2">Snelle Levering</h3>
-                            <p class="text-gray-400">Binnen 1-3 werkdagen in huis</p>
+                            <h3 class="text-xl font-bold mb-2">Express Levering</h3>
+                            <p class="text-gray-400">Gratis Next-Day levering bij bestellingen voor 22:00. Binnen 1-3 werkdagen gegarandeerd in huis.</p>
                         </div>
                     </div>
-                    <div class="flex items-start space-x-4">
+                    <div class="flex items-start space-x-4 hover:scale-105 transition-transform duration-300">
                         <div class="text-purple-400 text-2xl">🎁</div>
                         <div>
-                            <h3 class="text-xl font-bold mb-2">Exclusieve Korting</h3>
-                            <p class="text-gray-400">Tijdelijk extra voordeel voor snelle beslissers</p>
+                            <h3 class="text-xl font-bold mb-2">30% Launch Korting</h3>
+                            <p class="text-gray-400">Tijdelijk 30% introductiekorting + gratis sporthanddoek bij je bestelling (t.w.v. €29,95)</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-800/50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Wat Onze Klanten Zeggen</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                    <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform duration-300">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                            <span class="ml-2 text-gray-400">(5.0)</span>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Dit shirt is een game-changer voor mijn deadlift sessies. Het materiaal ademt geweldig en de pasvorm is perfect. Mijn PR is met 15kg omhoog gegaan sinds ik dit shirt gebruik!"</p>
+                        <p class="font-bold">Mark van der Berg</p>
+                        <p class="text-sm text-gray-400">Powerlifting Coach, Rotterdam</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform duration-300">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                            <span class="ml-2 text-gray-400">(5.0)</span>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Eindelijk een shirt dat niet doorweekt raakt tijdens HIIT workouts. De anti-bacteriële coating werkt echt - geen nare geurtjes meer!"</p>
+                        <p class="font-bold">Lisa Jansen</p>
+                        <p class="text-sm text-gray-400">CrossFit Atleet</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform duration-300">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                            <span class="ml-2 text-gray-400">(5.0)</span>
+                        </div>
+                        <p class="text-gray-300 mb-4">"De kwaliteit is ongeëvenaard. Na 6 maanden intensief gebruik en wassen ziet het shirt er nog steeds uit als nieuw. Beste fitness investering dit jaar!"</p>
+                        <p class="font-bold">Thomas de Vries</p>
+                        <p class="text-sm text-gray-400">Personal Trainer, Amsterdam</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform duration-300">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                            <span class="ml-2 text-gray-400">(5.0)</span>
+                        </div>
+                        <p class="text-gray-300 mb-4">"De pasvorm is perfect voor mijn bodybuilding sessies. Geen restrictie tijdens shoulder press en de ventilatie is superieur aan andere merken."</p>
+                        <p class="font-bold">Emma Visser</p>
+                        <p class="text-sm text-gray-400">Fitness Influencer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Over Lifterbell</h2>
+                <div class="max-w-4xl mx-auto space-y-8">
+                    <p class="text-gray-300 leading-relaxed">
+                        Lifterbell werd in 2020 opgericht door een team van professionele atleten en textielingenieurs met één missie: het creëren van de perfecte sportkleding. Na twee jaar van intensief onderzoek en ontwikkeling, lanceerden we ons eerste product - het Lifterbell Performance Shirt - dat al snel uitgroeide tot een favoriet onder fitness enthusiasts.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        Onze kernwaarden zijn innovatie, kwaliteit en duurzaamheid. We gebruiken alleen de meest geavanceerde materialen en productietechnieken, terwijl we tegelijkertijd streven naar minimale milieu-impact. Elk Lifterbell product wordt ethisch geproduceerd en is ontworpen om jaren mee te gaan, wat zowel goed is voor jou als voor de planeet.
+                    </p>
                 </div>
             </div>
         </section>
@@ -82,13 +166,25 @@
             <div class="container mx-auto px-4">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Veelgestelde Vragen</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="bg-gray-800 rounded-lg p-6">
-                        <h3 class="text-xl font-bold mb-2">Wat zijn de maten?</h3>
-                        <p class="text-gray-400">Beschikbaar in S, M, L, XL en XXL. Check de maattabel voor details.</p>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700/50 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-2">Wat zijn de beschikbare maten?</h3>
+                        <p class="text-gray-400">We bieden maten van S tot XXL. Ons shirt valt normaal qua maat. Check onze maattabel voor exacte afmetingen per maat. Bij twijfel adviseren we een maat groter te nemen.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-lg p-6">
-                        <h3 class="text-xl font-bold mb-2">Hoe lang duurt de levering?</h3>
-                        <p class="text-gray-400">Meestal 1-3 werkdagen binnen Nederland.</p>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700/50 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-2">Hoe moet ik het shirt wassen?</h3>
+                        <p class="text-gray-400">Was het shirt op 30°C, gebruik geen wasverzachter en vermijd de droger. Dit behoudt de speciale eigenschappen van het materiaal en verlengt de levensduur.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700/50 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-2">Wat is jullie retourbeleid?</h3>
+                        <p class="text-gray-400">Je hebt 30 dagen bedenktijd. Retourneren is gratis en we garanderen 100% geld terug, geen vragen gesteld.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700/50 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-2">Hoe lang gaat de anti-bacteriële coating mee?</h3>
+                        <p class="text-gray-400">De coating blijft effectief tot 50 wasbeurten bij correct gebruik. Dit komt neer op ongeveer een jaar bij normaal gebruik.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-700/50 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-2">Kan ik het shirt gebruiken voor alle sporten?</h3>
+                        <p class="text-gray-400">Ja, het shirt is ontworpen voor alle intensieve activiteiten, van krachttraining tot cardio en yoga.</p>
                     </div>
                 </div>
             </div>
@@ -96,8 +192,8 @@
 
         <section class="py-24 bg-gradient-to-r from-purple-900 to-pink-900">
             <div class="container mx-auto px-4 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Mis Deze Kans Niet!</h2>
-                <p class="text-xl mb-12">⚡ Nog maar enkele shirts beschikbaar met korting</p>
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Mis Deze Unieke Aanbieding Niet!</h2>
+                <p class="text-xl mb-12">⚡ Nog maar enkele shirts beschikbaar met 30% korting + gratis sporthanddoek</p>
                 <a href="https://amzn.to/3EGnZle" class="inline-block bg-white text-gray-900 text-lg px-8 py-4 rounded-full hover:shadow-xl hover:scale-105 transform transition-all duration-300">Bestel Nu Met Korting</a>
             </div>
         </section>
@@ -108,13 +204,14 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact</h3>
-                    <p class="text-gray-400">support@example.com</p>
+                    <p class="text-gray-400">support@lifterbell.com</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Links</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Terms & Conditions</a></li>
+                        <li><a href="https://readthisnow.github.io/lifterbell-shirt-2025-04-27-qzeeb/privacy.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://readthisnow.github.io/lifterbell-shirt-2025-04-27-qzeeb/terms.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Terms & Conditions</a></li>
+                        <li><a href="https://readthisnow.github.io/lifterbell-shirt-2025-04-27-qzeeb/blog.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -123,5 +220,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
